@@ -75,50 +75,36 @@ const adoptDogs = () => {
 
   switch (dogSelecction) {
     case "luna":
+      mensaje = "Gracias por contactarnos, pronto nos comunicaremos con usted.";
       correo = prompt(
-        "Usted eligio a Luna, le enviaremos un formulario a su correo para completar, gracias "
+        "Usted eligio a Luna, necesitamos su correo para enviare un formulario"
       );
-      if (mensaje != null) {
-        alert(
-          `${nombre} pronto recibiras un correo con novedades sobre Luna, gracias`
-        );
-      }
       break;
     case "lolla":
-      mensaje = prompt(
-        "Usted eligio a Lolla, le enviaremos un formulario a su correo para completar, gracias "
+      mensaje = "Gracias por contactarnos, pronto nos comunicaremos con usted.";
+      correo = prompt(
+        "Usted eligio a Lolla, necesitamos su correo para enviare un formulario"
       );
-      if (mensaje != null) {
-        alert(
-          `${nombre} pronto recibiras un correo con novedades sobre Luna, gracias`
-        );
-        break;
-      }
+      break;
     case "zeus":
-      mensaje = prompt(
-        "Usted eligio a Zeus, le enviaremos un formulario a su correo para completar, gracias "
+      mensaje = "Gracias por contactarnos, pronto nos comunicaremos con usted.";
+      correo = prompt(
+        "Usted eligio a Zeus, necesitamos su correo para enviare un formulario"
       );
-      if (mensaje != null) {
-        alert(
-          `${nombre} pronto recibiras un correo con novedades sobre Luna, gracias`
-        );
-        break;
-      }
+      break;
+
     case "rocky":
-      mensaje = prompt(
-        "Usted eligio a Rocky, le enviaremos un formulario a su correo para completar, gracias "
+      mensaje = "Gracias por contactarnos, pronto nos comunicaremos con usted.";
+      correo = prompt(
+        "Usted eligio a Rocky, necesitamos su correo para enviare un formulario"
       );
-      if (mensaje != null) {
-        alert(
-          `${nombre} pronto recibiras un correo con novedades sobre Luna, gracias`
-        );
-        break;
-      }
+      break;
+
     default:
       mensaje = "El animal que ha ingresado no está disponible para adopción";
   }
 
-  // alert(mensaje);
+  alert(mensaje);
 };
 
 // funcion gatos
@@ -131,30 +117,34 @@ const adoptCats = () => {
 
   switch (catSelecction) {
     case "clara":
-      mensaje =
-        "Usted eligio a Clara, le enviaremos un formulario a su correo para completar, ¿nos facilias el correo?";
+      mensaje = "Gracias por contactarnos, pronto nos comunicaremos con usted.";
+      correo = prompt(
+        "Usted eligio a Clara, necesitamos su correo para enviare un formulario"
+      );
       break;
     case "henry":
-      mensaje =
-        "Usted eligio a Henry, le enviaremos un formulario a su correo para completar, ¿nos facilias el correo?";
+      mensaje = "Gracias por contactarnos, pronto nos comunicaremos con usted.";
+      correo = prompt(
+        "Usted eligio a Henry, necesitamos su correo para enviare un formulario"
+      );
       break;
     case "simba":
-      mensaje =
-        "Usted eligio a Simba, le enviaremos un formulario a su correo para completar, ¿nos facilias el correo?";
+      mensaje = "Gracias por contactarnos, pronto nos comunicaremos con usted.";
+      correo = prompt(
+        "Usted eligio a Simba, necesitamos su correo para enviare un formulario"
+      );
       break;
     case "misha":
-      mensaje =
-        "Usted eligio a Misha, le enviaremos un formulario a su correo para completar, ¿nos facilias el correo?";
+      mensaje = "Gracias por contactarnos, pronto nos comunicaremos con usted.";
+      correo = prompt(
+        "Usted eligio a Misha, necesitamos su correo para enviare un formulario"
+      );
       break;
     default:
       mensaje = "El animal que ha ingresado no está disponible para adopción";
   }
 
   alert(mensaje);
-  correo = prompt(`su correo es :`);
-  if (correo != null) {
-    alert(`${nombre} pronto nos comunicaremos a su correo, gracias.`);
-  }
 };
 
 // Llamado a funciones
